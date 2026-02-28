@@ -2,9 +2,13 @@ import java.util.*;
 
 public class InputInJava {
 
-    public static void main(String args[]){
-        Scanner sc = new Scanner(System.in); 
-        String input = sc.next();//store
-        System.out.println(input);
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        // String input = sc.next();// store
+        // System.out.println(input);
+
+
+        String FullName = sc.nextLine();
+        System.out.println(FullName);
     }
 }
