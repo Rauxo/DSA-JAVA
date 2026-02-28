@@ -7,24 +7,25 @@ public class InputInJava {
 
         //only for one word
 
-        // String input = sc.next();// store
-        // System.out.println(input);
+        String input = sc.next();// store
+        System.out.println(input);
 
 
         //Multiple Word
 
-        // String FullName = sc.nextLine();
-        // System.out.println(FullName);
+        String FullName = sc.nextLine();
+        System.out.println(FullName);
 
 
         //Input Number 
 
-        // int number = sc.nextInt();
-        // System.out.println(number);
+        int number = sc.nextInt();
+        System.out.println(number);
 
         //Input Floating Number
 
         float fl = sc.nextFloat();
         System.out.println(fl);
+
     }
 }
