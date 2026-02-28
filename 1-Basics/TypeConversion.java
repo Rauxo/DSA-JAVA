@@ -6,9 +6,13 @@ public class TypeConversion {
         // System.out.println(b);
 
         //type casting (forcefully change the type)
-        float c = 25.99f;
-        int d = (int)c; // lossy conversion
-        System.out.println(d);
+        // float c = 25.99f;
+        // int d = (int)c; // lossy conversion
+        // System.out.println(d);
+
+        char ch = 'a';
+        int number = ch;
+        System.err.println(number);
     }
 }
 
