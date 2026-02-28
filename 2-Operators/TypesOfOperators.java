@@ -15,6 +15,7 @@ public class TypesOfOperators {
 
         //Relational (==,!= , > , < , >= , <=)
         System.out.println(a == b);
+        System.out.println(a != b);
 
         //Logical
     }
