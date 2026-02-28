@@ -13,8 +13,8 @@ public class TypesOfOperators {
         int c = a++;
         System.out.println(c);
 
-        //Relational
-
+        //Relational (==,!= , > , < , >= , <=)
+        System.out.println(a == b);
 
         //Logical
     }
