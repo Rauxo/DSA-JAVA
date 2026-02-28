@@ -8,7 +8,10 @@ public class InputInJava {
         // System.out.println(input);
 
 
-        String FullName = sc.nextLine();
-        System.out.println(FullName);
+        // String FullName = sc.nextLine();
+        // System.out.println(FullName);
+
+        int number = sc.nextInt();
+        System.out.println(number);
     }
 }
