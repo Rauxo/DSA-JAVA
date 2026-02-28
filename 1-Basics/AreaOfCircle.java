@@ -7,7 +7,7 @@ public class AreaOfCircle {
         float pi = 3.14f;
         Scanner sc = new Scanner(System.in);
 
-        int radius = sc.nextInt();
+        float radius = sc.nextFloat();
 
         float area = pi * radius * radius;
 
