@@ -17,6 +17,8 @@ public class TypesOfOperators {
         System.out.println(a == b);
         System.out.println(a != b);
 
-        //Logical
+        //Logical (&& , || , !)
+        System.out.println((3>2) && (0>5));
+        System.out.println((3>2) || (0>5));
     }
 }
