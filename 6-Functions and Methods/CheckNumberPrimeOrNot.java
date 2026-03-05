@@ -2,6 +2,10 @@ import java.util.*;
 public class CheckNumberPrimeOrNot {
 
     public static boolean isPrime(int n){
+        //corner case
+        if(n == 2){
+            return true;
+        }
         boolean isPrime = true;
         for(int i = 2; i<=Math.sqrt(n) ; i++){
             if(n % i == 0){
