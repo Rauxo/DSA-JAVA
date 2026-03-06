@@ -22,5 +22,7 @@ public class IntroductionToArray {
         //update
         marks[1] = 100;
         System.out.println("Math : " + marks[1]);
+        marks[1] = marks[1] + 1;
+        System.out.println("Math : " + marks[1]);
     }
 }
